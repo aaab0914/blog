@@ -22,6 +22,8 @@ header h1 a{
     padding-top: 2rem;
 }
 
+
+
 .post-entry {
     margin-bottom: 2rem;
 }
@@ -44,3 +46,24 @@ header h1 a{
 .post-entry h2 a:hover {
     color: red;
  }
+
+.nav-right {
+    margin-left: auto;  /* 关键：推送到最右边 */
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a {
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-right a:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+}
